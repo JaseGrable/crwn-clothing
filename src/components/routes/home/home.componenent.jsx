@@ -30,11 +30,12 @@ const Home = () => {
     },
   ];
 
-  return 
-  <div>
-  <Outlet/>
-  <Directory categories={categories} />;
+  return (
+    <div>
+    <Outlet/>
+    <Directory categories={categories} />;
   </div>
+  )
 };
 
 export default Home;
